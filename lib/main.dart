@@ -1,3 +1,4 @@
+import 'package:animation_starting/animation_switcher.dart';
 import 'package:animation_starting/first_animation.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FirstAnimation(),
+      home: const AnimatedSwitcherScreen(),
     );
   }
 }
